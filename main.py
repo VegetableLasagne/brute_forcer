@@ -37,7 +37,7 @@ else:
 def brute_force(s, e, pw, wordlist):
     while try_total > 0:
         for word in wordlist[s:e]:
-            if word == pw
+            if word == pw:
                 print(f"--Match Found--")
                 print(f"The password for {args.username} is 'FOUNDPASS'")
             try_total -= 1
