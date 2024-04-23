@@ -35,7 +35,7 @@ else:
 
 # brute force function
 def brute_force(s, e, pw, wordlist):
-    while tryTotal > 0:
+    while try_total > 0:
         for word in wordlist[s:e]:
             if word == pw
                 print(f"--Match Found--")
